@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UT2 - Práctica 3 - Proyecto individual Aaron.G.H</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="Cabecera">
+        <img src="img/logo__bike__shop__header.png" alt="logo__bike__shop__header" class="Cabecera__img">
+        
+        <div class="Cabecera__div__buscador">
+            <input type="text" class="Cabecera__buscador" placeholder="Buscar"  />
+            <button type="submit" class="Cabecera__button">
+                <img src="img/icon-busqueda-de-lupa.png" alt="busqueda-de-lupa">
+            </button>
+        </div>
+
+        <div class="Cabecera__div__icon">
+            <a href="#" class="Cabecera__a__icon Cabecera__shadow__icon">
+                <img src="img/icon__house__header.png" alt="icon__house__header" class="Cabecera__icon">
+            </a>
+            <a href="#" class="Cabecera__a__icon Cabecera__shadow__icon">
+                <img src="img/icono-usuario-header.png" alt="icono-usuario-header" class="Cabecera__icon">
+            </a>
+            <a href="#" class="Cabecera__a__icon Cabecera__shadow__icon">
+                <img src="img/icono-carrito-header.png" alt="icono-carrito-header" class="Cabecera__icon">
+            </a>
+        </div>
+    </header>
+
+    <nav class="menu"  data-animation="bonus">
+        <a href="#inicio">Inicio</a>
+        <a href="#destacados">Destacados</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contact">Contact</a>
+        <a href="#links">Links</a>
+    </nav>
+
+    <div class="cuerpo">
+        <section class="cuerpo__inicio" id="inicio">
+            <div class="cuerpo__inicio__texto">
+                <h2>Bienvenidos a BicisAGH</h2>
+                <p>Encuentra las mejores bicicletas y accesorios para todos los niveles. Desde bicicletas de montaña hasta eléctricas, tenemos lo que necesitas.</p>
+            </div>
+            <div class="cuerpo__inicio__img">
+                <img src="img/bicicleta-destacada.jpg" alt="Bicicletas Destacadas">
+            </div>
+        </section>
+        
+    
+        <section class="cuerpo__destacados" id="destacados">
+            <h2 class="heading">Productos Destacados</h2>
+            <div class="cuerpo__destacados__lista">
+                <div class="producto">
+                    <img src="img/bicicleta-montaña.jpg" alt="Bicicleta de montaña">
+                    <h3>Bicicleta de Montaña</h3>
+                    <p>¡Disfruta de la aventura al aire libre con nuestra bicicleta de montaña!</p>
+                    <button>Ver Más</button>
+                </div>
+                <div class="producto">
+                    <img src="img/bicicleta-electrica.jpg" alt="Bicicleta eléctrica">
+                    <h3>Bicicleta Eléctrica</h3>
+                    <p>La opción perfecta para un paseo cómodo y rápido por la ciudad.</p>
+                    <button>Ver Más</button>
+                </div>
+                <div class="producto">
+                    <img src="img/bicicleta-calle.jpg" alt="Bicicleta de calle">
+                    <h3>Bicicleta de Calle</h3>
+                    <p>Ideal para paseos urbanos, ligera y rápida.</p>
+                    <button>Ver Más</button>
+                </div>
+                <div class="producto">
+                    <img src="img/Bicicleta-estatica.jpg" alt="Bicicleta estatica">
+                    <h3>Bicicleta Estatica</h3>
+                    <p>Ideal para ejercitarte en casa.</p>
+                    <button>Ver Más</button>
+                </div>
+            </div>
+        </section>
+        
+    
+        <section class="cuerpo__servicios" id="servicios">
+            <h2 class="heading">Nuestros Servicios</h2>
+            <div class="cuerpo__servicios__lista">
+                <div class="servicio">
+                    <img src="img/reparacion-bicicletas.jpg" alt="Reparación de bicicletas">
+                    <h3>Reparación de Bicicletas</h3>
+                    <p>Servicio profesional de reparación para todo tipo de bicicletas. ¡Déjanos hacer que tu bici funcione como nueva!</p>
+                </div>
+                <div class="servicio">
+                    <img src="img/personalizacion.jpg" alt="Personalización de bicicletas">
+                    <h3>Personalización</h3>
+                    <p>Haz que tu bicicleta sea única con nuestros servicios de personalización. Elige colores, accesorios y más.</p>
+                </div>
+                <div class="servicio">
+                    <img src="img/envio.png" alt="Envío a domicilio">
+                    <h3>Envío a Domicilio</h3>
+                    <p>Recibe tu bicicleta en la puerta de tu casa con nuestro servicio de envío a domicilio. ¡Así de fácil!</p>
+                </div>
+                <div class="servicio">
+                    <img src="img/garantia.jpg" alt="Envío a domicilio">
+                    <h3>2 años de garantia</h3>
+                    <p>Si no podemos repararla te la cambiamos!!!!!</p>
+                </div>
+            </div>
+        </section>
+        
+    
+        <section class="cuerpo__contact" id="contact">
+            <h2 class="cuerpo__contact__heading">Contactanos <span>Para Mas</span></h2>
+            
+            <form action="">
+                <div class="cuerpo__contact__input__groupo">
+                    <div class="cuerpo__contact__input__box">
+                        <input type="text" placeholder="Nombre Completo" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="number" placeholder="Telefono" required>
+                        
+                    </div>
+                     <textarea cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                </div>
+        
+                <div class="cuerpo__contact__input__groupo__2">
+                    <input type="submit" value="Send Message" class="cuerpo__contact__btn">
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <div class="separacion__cuerpo__footer"></div>
+
+    <footer>
+        <div class="footer__contenido" id="links">
+            <div class="footer__contenido__links">
+                <div class="footer__contenido__links__footer__section footer__contenido__links__destacados">
+                    <h3>DESTACADOS</h3>
+                    <ul>
+                        <li><a href="#">Promociones</a></li>
+                        <li><a href="#">Nuevos productos</a></li>
+                        <li><a href="#">Más vendidos</a></li>
+                        <li><a href="#">Bicicletas eléctricas</a></li>
+                        <li><a href="#">Bicicletas de montaña</a></li>
+                        <li><a href="#">Bicicletas de carretera</a></li>
+                        <li><a href="#">Bicicletas Gravel</a></li>
+                        <li><a href="#">Bicicletas para niños</a></li>
+                        <li><a href="#">Bicicletas de paseo</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer__contenido__links__footer__section footer__contenido__links__contacta">
+                    <h3>CONTACTA</h3>
+                    <ul>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Trabaja con nosotros</a></li>
+                    </ul>
+
+                    <div class="footer__contenido__contacto__div__icon">
+                        <a href="#" class="footer__a__icon footer__shadow__icon">
+                            <img src="img/icons8-facebook-nuevo-32.png" alt="icon__house__header" class="footer__icon">
+                        </a>
+                        <a href="#" class="footer__a__icon footer__shadow__icon">
+                            <img src="img/icons8-instagram-32.png" alt="icon__house__header" class="footer__icon">
+                        </a>
+                        <a href="#" class="footer__a__icon footer__shadow__icon">
+                            <img src="img/icons8-twitterx-32.png" alt="icon__house__header" class="footer__icon">
+                        </a>
+                        <a href="#" class="footer__a__icon footer__shadow__icon">
+                            <img src="img/icons8-youtube-play-32.png" alt="icon__house__header" class="footer__icon">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__contenido__links__footer__section footer__contenido__links__atencion">
+                    <h3>ATENCIÓN AL CLIENTE</h3>
+                    <p>info@bicispina.com</p>
+                    <p>Abierto de: Lunes a Viernes de 9:30 a 14:00 y de 16:30 a 20:30.</p>
+                    <p>Sábados hasta las 14:00.</p>
+
+                    <div class="footer__contenido__links__atencion__rojo">
+                        <p><strong>¿TIENES ALGUNA DUDA?</strong></p>
+                        <p>640 81 81 81 </p>
+                    </div>
+                </div>
+        
+                <div class="footer__contenido__links__footer__section footer__contenido__links__tiendas">
+                    <h3>TIENDAS</h3>
+                    <ul>
+                        <li>Toledo: AV. Río Boladiez, 54<br>925 240 880 (Toledo)</li>
+                        <li>Illescas: AV. Castilla La Mancha, 3<br>925 512 036 (Illescas)</li>
+                        <li>Alcázar: AV. de Herencia, 13<br>926 113 143 (Alcázar de San Juan)</li>
+                    </ul>
+                </div>
+        
+                <div class="footer__contenido__links__footer__section footer__contenido__links__legal">
+                    <h3>LEGAL</h3>
+                    <ul>
+                        <li><a href="#">Pagos y envíos</a></li>
+                        <li><a href="#">Condiciones Generales de Venta</a></li>
+                        <li><a href="#">Condiciones de Financiacion</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="footer__end">
+            <p>© 2024 Aaron.G.H Tienda de Bicicletas. </p>
+        </div>
+    </footer>
+
+</body>
+</html>
